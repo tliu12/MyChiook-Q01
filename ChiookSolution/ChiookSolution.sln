@@ -22,6 +22,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ChiookWeb", "ChiookWeb\", "
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "50297"
+		SlnRelativePath = "ChiookWeb\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
