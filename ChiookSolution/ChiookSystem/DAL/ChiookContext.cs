@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 #region Additiona1 Namespaces
 using System.Data.Entity;
+using ChiookSystem.Data.Entities;
 #endregion
 namespace ChiookSystem.DAL
 {
@@ -22,5 +23,9 @@ namespace ChiookSystem.DAL
         {
 
         }
+        //Setup all Dbset properties once Entity classes are created
+        public DbSet<Artist> Artists { get; set; }
+        public DbSet<Album> Albums { get; set; }
+        public DbSet<Track> Tracks { get; set; }
     }
 }
